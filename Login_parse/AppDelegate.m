@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"2cRGhU2zd3QPRpCbleoiOZNvNOhD8J2LYrySPGLE"
+                  clientKey:@"nGOunGIluJ5vQUrHbQLYz3Xb9JgAx4mk1or00Lv3"];
+//    PFObject *user1= [PFObject objectWithClassName:@"User"];
+//    [user1 setObject:@"mvivekt510@gmail" forKey:@"email"];
+//    [user1 setObject:@"admin" forKey:@"username"];
+//    [user1 setObject:@"admin" forKey:@"password"];
+//    [user1 saveInBackgroundWithBlock:^(BOOL succeeded, NSError * _Nullable error) {
+//        if(succeeded){
+//            NSLog(@"User registered sucessfully");
+//        }else{
+//            NSLog(@"%@",error);
+//        }
+//        
+//    }];
+    
+    
+    self.window =[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.loginViewController =[[LoginViewController alloc]initWithNibName:@"LoginViewController" bundle:nil];
+    self.window.rootViewController =self.loginViewController;
+    [self.window makeKeyAndVisible];
+    
+    
+    
     return YES;
 }
 

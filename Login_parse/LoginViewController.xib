@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="emailIdField" destination="2zL-D7-Zc6" id="KdO-8n-YMx"/>
+                <outlet property="passwordField" destination="0mG-Ml-RYh" id="grr-3C-lek"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WP5-gp-545">
+                    <rect key="frame" x="170" y="150" width="260" height="300"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Demo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85X-u4-akn">
+                            <rect key="frame" x="79" y="20" width="102" height="23"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="19"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXZ-ds-MDm">
+                            <rect key="frame" x="-170" y="-150" width="46" height="30"/>
+                            <state key="normal" title="Button"/>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0mG-Ml-RYh">
+                            <rect key="frame" x="23" y="126" width="214" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XxF-SR-uoK">
+                            <rect key="frame" x="74" y="217" width="114" height="40"/>
+                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
+                            <state key="normal" title="Forgot Password">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="forgotPasswordTapped:" destination="-1" eventType="touchUpInside" id="cvl-vw-F6G"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sx8-8a-8vo">
+                            <rect key="frame" x="105" y="257" width="51" height="37"/>
+                            <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="18"/>
+                            <state key="normal" title="Sign Up">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="signUpButtonTapped:" destination="-1" eventType="touchUpInside" id="KoE-CA-Vrg"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99896067380905151" green="1" blue="0.99989110231399536" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="85X-u4-akn" firstAttribute="top" secondItem="WP5-gp-545" secondAttribute="top" constant="20" id="17y-Be-fgP"/>
+                        <constraint firstItem="Sx8-8a-8vo" firstAttribute="centerX" secondItem="WP5-gp-545" secondAttribute="centerX" id="M22-OS-NW9"/>
+                        <constraint firstItem="Sx8-8a-8vo" firstAttribute="top" secondItem="XxF-SR-uoK" secondAttribute="bottom" id="Znm-Vn-jOh"/>
+                        <constraint firstItem="85X-u4-akn" firstAttribute="centerX" secondItem="WP5-gp-545" secondAttribute="centerX" id="dM6-EG-2xc"/>
+                        <constraint firstAttribute="height" constant="300" id="tAc-Fs-1FF"/>
+                        <constraint firstAttribute="width" constant="260" id="uzK-Y5-xXm"/>
+                        <constraint firstItem="XxF-SR-uoK" firstAttribute="centerX" secondItem="WP5-gp-545" secondAttribute="centerX" constant="1" id="zKy-uF-MuG"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UserName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2zL-D7-Zc6">
+                    <rect key="frame" x="193" y="219" width="214" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBR-Hk-KKZ">
+                    <rect key="frame" x="281" y="321" width="39" height="40"/>
+                    <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
+                    <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                    <state key="normal" title="Login">
+                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonTapped:" destination="-1" eventType="touchUpInside" id="6QB-ff-OY1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.98325151205062866" green="0.50410187244415283" blue="0.39496487379074097" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0mG-Ml-RYh" firstAttribute="width" secondItem="2zL-D7-Zc6" secondAttribute="width" id="DHS-kf-03s"/>
+                <constraint firstItem="FBR-Hk-KKZ" firstAttribute="top" secondItem="0mG-Ml-RYh" secondAttribute="bottom" constant="15" id="Dee-gJ-meL"/>
+                <constraint firstItem="0mG-Ml-RYh" firstAttribute="leading" secondItem="2zL-D7-Zc6" secondAttribute="leading" id="QtT-mh-nps"/>
+                <constraint firstItem="WP5-gp-545" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="gsN-hj-dbo"/>
+                <constraint firstItem="WP5-gp-545" firstAttribute="leading" secondItem="2zL-D7-Zc6" secondAttribute="trailing" constant="-237" id="mEh-uK-E9X"/>
+                <constraint firstItem="2zL-D7-Zc6" firstAttribute="top" secondItem="85X-u4-akn" secondAttribute="bottom" constant="26" id="p9L-x7-gII"/>
+                <constraint firstItem="XxF-SR-uoK" firstAttribute="top" secondItem="FBR-Hk-KKZ" secondAttribute="bottom" constant="6" id="rG9-DN-IO2"/>
+                <constraint firstItem="FBR-Hk-KKZ" firstAttribute="centerX" secondItem="WP5-gp-545" secondAttribute="centerX" id="wtX-Eh-5qr"/>
+                <constraint firstItem="2zL-D7-Zc6" firstAttribute="centerX" secondItem="WP5-gp-545" secondAttribute="centerX" id="xTU-Hd-9uj"/>
+                <constraint firstItem="0mG-Ml-RYh" firstAttribute="top" secondItem="2zL-D7-Zc6" secondAttribute="bottom" constant="27" id="xus-4A-sGq"/>
+                <constraint firstItem="WP5-gp-545" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ytG-gr-23u"/>
+            </constraints>
+            <point key="canvasLocation" x="264" y="354"/>
+        </view>
+    </objects>
+</document>

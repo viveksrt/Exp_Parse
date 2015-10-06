@@ -7,25 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9335742CC4E3FC69CA85E1F0 /* libPods-Login_parse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E3ED0468D740D5181342C2 /* libPods-Login_parse.a */; };
 		D9873C111BC24D81009317E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9873C101BC24D81009317E9 /* main.m */; };
 		D9873C141BC24D81009317E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9873C131BC24D81009317E9 /* AppDelegate.m */; };
-		D9873C171BC24D81009317E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9873C161BC24D81009317E9 /* ViewController.m */; };
-		D9873C1A1BC24D81009317E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9873C181BC24D81009317E9 /* Main.storyboard */; };
 		D9873C1C1BC24D81009317E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9873C1B1BC24D81009317E9 /* Assets.xcassets */; };
 		D9873C1F1BC24D81009317E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9873C1D1BC24D81009317E9 /* LaunchScreen.storyboard */; };
+		D9873C291BC25963009317E9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9873C271BC25963009317E9 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D9873C2A1BC25963009317E9 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9873C281BC25963009317E9 /* LoginViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D9A3A29F1BC27BFB0040A307 /* ForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A29D1BC27BFB0040A307 /* ForgotPasswordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D9A3A2A01BC27BFB0040A307 /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A3A29E1BC27BFB0040A307 /* ForgotPasswordViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D9A3A2A41BC27C0E0040A307 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A2A21BC27C0E0040A307 /* SignUpViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D9A3A2A51BC27C0E0040A307 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A3A2A31BC27C0E0040A307 /* SignUpViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D9A3A2A91BC27C2A0040A307 /* UserRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A3A2A71BC27C2A0040A307 /* UserRootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		D9A3A2AA1BC27C2A0040A307 /* UserRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A3A2A81BC27C2A0040A307 /* UserRootViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		D9A3A2AC1BC286D40040A307 /* libBolts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2AB1BC286D40040A307 /* libBolts.a */; };
+		D9A3A2AE1BC287050040A307 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2AD1BC287050040A307 /* SystemConfiguration.framework */; };
+		D9A3A2B01BC2870F0040A307 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2AF1BC2870F0040A307 /* StoreKit.framework */; };
+		D9A3A2B21BC287170040A307 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2B11BC287170040A307 /* Security.framework */; };
+		D9A3A2B41BC2871F0040A307 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2B31BC2871F0040A307 /* QuartzCore.framework */; };
+		D9A3A2B61BC287280040A307 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2B51BC287280040A307 /* CoreLocation.framework */; };
+		D9A3A2B81BC287300040A307 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2B71BC287300040A307 /* CoreGraphics.framework */; };
+		D9A3A2BA1BC287360040A307 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2B91BC287360040A307 /* CFNetwork.framework */; };
+		D9A3A2BC1BC2873F0040A307 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2BB1BC2873F0040A307 /* AudioToolbox.framework */; };
+		D9A3A2BE1BC287DF0040A307 /* libParse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2BD1BC287DF0040A307 /* libParse.a */; };
+		D9A3A2C01BC287F20040A307 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2BF1BC287F20040A307 /* libz.1.1.3.tbd */; };
+		D9A3A2C21BC288080040A307 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A3A2C11BC288080040A307 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03E3ED0468D740D5181342C2 /* libPods-Login_parse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Login_parse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		517157A82D059D96CE29004A /* Pods-Login_parse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_parse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Login_parse/Pods-Login_parse.release.xcconfig"; sourceTree = "<group>"; };
+		B35DA017DBF6E4E7AA5BE55C /* Pods-Login_parse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login_parse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Login_parse/Pods-Login_parse.debug.xcconfig"; sourceTree = "<group>"; };
 		D9873C0C1BC24D81009317E9 /* Login_parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login_parse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9873C101BC24D81009317E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9873C121BC24D81009317E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9873C131BC24D81009317E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D9873C151BC24D81009317E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D9873C161BC24D81009317E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D9873C191BC24D81009317E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9873C1B1BC24D81009317E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9873C1E1BC24D81009317E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9873C201BC24D81009317E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9873C261BC25963009317E9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D9873C271BC25963009317E9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D9873C281BC25963009317E9 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D9A3A29C1BC27BFB0040A307 /* ForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordViewController.h; sourceTree = "<group>"; };
+		D9A3A29D1BC27BFB0040A307 /* ForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordViewController.m; sourceTree = "<group>"; };
+		D9A3A29E1BC27BFB0040A307 /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		D9A3A2A11BC27C0E0040A307 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		D9A3A2A21BC27C0E0040A307 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		D9A3A2A31BC27C0E0040A307 /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		D9A3A2A61BC27C2A0040A307 /* UserRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserRootViewController.h; sourceTree = "<group>"; };
+		D9A3A2A71BC27C2A0040A307 /* UserRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserRootViewController.m; sourceTree = "<group>"; };
+		D9A3A2A81BC27C2A0040A307 /* UserRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserRootViewController.xib; sourceTree = "<group>"; };
+		D9A3A2AB1BC286D40040A307 /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "Pods/../build/Debug-iphoneos/libBolts.a"; sourceTree = "<group>"; };
+		D9A3A2AD1BC287050040A307 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D9A3A2AF1BC2870F0040A307 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D9A3A2B11BC287170040A307 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D9A3A2B31BC2871F0040A307 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9A3A2B51BC287280040A307 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D9A3A2B71BC287300040A307 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9A3A2B91BC287360040A307 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D9A3A2BB1BC2873F0040A307 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D9A3A2BD1BC287DF0040A307 /* libParse.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParse.a; path = "Pods/../build/Debug-iphoneos/libParse.a"; sourceTree = "<group>"; };
+		D9A3A2BF1BC287F20040A307 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		D9A3A2C11BC288080040A307 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +76,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A3A2C21BC288080040A307 /* libsqlite3.0.tbd in Frameworks */,
+				D9A3A2C01BC287F20040A307 /* libz.1.1.3.tbd in Frameworks */,
+				D9A3A2BE1BC287DF0040A307 /* libParse.a in Frameworks */,
+				D9A3A2BC1BC2873F0040A307 /* AudioToolbox.framework in Frameworks */,
+				D9A3A2BA1BC287360040A307 /* CFNetwork.framework in Frameworks */,
+				D9A3A2B81BC287300040A307 /* CoreGraphics.framework in Frameworks */,
+				D9A3A2B61BC287280040A307 /* CoreLocation.framework in Frameworks */,
+				D9A3A2B41BC2871F0040A307 /* QuartzCore.framework in Frameworks */,
+				D9A3A2B21BC287170040A307 /* Security.framework in Frameworks */,
+				D9A3A2B01BC2870F0040A307 /* StoreKit.framework in Frameworks */,
+				D9A3A2AE1BC287050040A307 /* SystemConfiguration.framework in Frameworks */,
+				D9A3A2AC1BC286D40040A307 /* libBolts.a in Frameworks */,
+				9335742CC4E3FC69CA85E1F0 /* libPods-Login_parse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		739731715E31D8CFCAB9C21E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B35DA017DBF6E4E7AA5BE55C /* Pods-Login_parse.debug.xcconfig */,
+				517157A82D059D96CE29004A /* Pods-Login_parse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D9873C031BC24D81009317E9 = {
 			isa = PBXGroup;
 			children = (
 				D9873C0E1BC24D81009317E9 /* Login_parse */,
 				D9873C0D1BC24D81009317E9 /* Products */,
+				739731715E31D8CFCAB9C21E /* Pods */,
+				EE0C4D12598DB4E2168A111B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +127,18 @@
 			children = (
 				D9873C121BC24D81009317E9 /* AppDelegate.h */,
 				D9873C131BC24D81009317E9 /* AppDelegate.m */,
-				D9873C151BC24D81009317E9 /* ViewController.h */,
-				D9873C161BC24D81009317E9 /* ViewController.m */,
-				D9873C181BC24D81009317E9 /* Main.storyboard */,
+				D9873C261BC25963009317E9 /* LoginViewController.h */,
+				D9873C271BC25963009317E9 /* LoginViewController.m */,
+				D9873C281BC25963009317E9 /* LoginViewController.xib */,
+				D9A3A29C1BC27BFB0040A307 /* ForgotPasswordViewController.h */,
+				D9A3A29D1BC27BFB0040A307 /* ForgotPasswordViewController.m */,
+				D9A3A29E1BC27BFB0040A307 /* ForgotPasswordViewController.xib */,
+				D9A3A2A11BC27C0E0040A307 /* SignUpViewController.h */,
+				D9A3A2A21BC27C0E0040A307 /* SignUpViewController.m */,
+				D9A3A2A31BC27C0E0040A307 /* SignUpViewController.xib */,
+				D9A3A2A61BC27C2A0040A307 /* UserRootViewController.h */,
+				D9A3A2A71BC27C2A0040A307 /* UserRootViewController.m */,
+				D9A3A2A81BC27C2A0040A307 /* UserRootViewController.xib */,
 				D9873C1B1BC24D81009317E9 /* Assets.xcassets */,
 				D9873C1D1BC24D81009317E9 /* LaunchScreen.storyboard */,
 				D9873C201BC24D81009317E9 /* Info.plist */,
@@ -79,6 +155,26 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EE0C4D12598DB4E2168A111B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A3A2C11BC288080040A307 /* libsqlite3.0.tbd */,
+				D9A3A2BF1BC287F20040A307 /* libz.1.1.3.tbd */,
+				D9A3A2BD1BC287DF0040A307 /* libParse.a */,
+				D9A3A2BB1BC2873F0040A307 /* AudioToolbox.framework */,
+				D9A3A2B91BC287360040A307 /* CFNetwork.framework */,
+				D9A3A2B71BC287300040A307 /* CoreGraphics.framework */,
+				D9A3A2B51BC287280040A307 /* CoreLocation.framework */,
+				D9A3A2B31BC2871F0040A307 /* QuartzCore.framework */,
+				D9A3A2B11BC287170040A307 /* Security.framework */,
+				D9A3A2AF1BC2870F0040A307 /* StoreKit.framework */,
+				D9A3A2AD1BC287050040A307 /* SystemConfiguration.framework */,
+				D9A3A2AB1BC286D40040A307 /* libBolts.a */,
+				03E3ED0468D740D5181342C2 /* libPods-Login_parse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9873C231BC24D81009317E9 /* Build configuration list for PBXNativeTarget "Login_parse" */;
 			buildPhases = (
+				5B390F6F67D6C59FB7D9F3B6 /* Check Pods Manifest.lock */,
 				D9873C081BC24D81009317E9 /* Sources */,
 				D9873C091BC24D81009317E9 /* Frameworks */,
 				D9873C0A1BC24D81009317E9 /* Resources */,
+				C9171855FA33DB6BF2E744FB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,36 +234,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A3A2A51BC27C0E0040A307 /* SignUpViewController.xib in Resources */,
+				D9A3A2A01BC27BFB0040A307 /* ForgotPasswordViewController.xib in Resources */,
 				D9873C1F1BC24D81009317E9 /* LaunchScreen.storyboard in Resources */,
+				D9A3A2AA1BC27C2A0040A307 /* UserRootViewController.xib in Resources */,
 				D9873C1C1BC24D81009317E9 /* Assets.xcassets in Resources */,
-				D9873C1A1BC24D81009317E9 /* Main.storyboard in Resources */,
+				D9873C2A1BC25963009317E9 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B390F6F67D6C59FB7D9F3B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9171855FA33DB6BF2E744FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Login_parse/Pods-Login_parse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9873C081BC24D81009317E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9873C171BC24D81009317E9 /* ViewController.m in Sources */,
+				D9A3A29F1BC27BFB0040A307 /* ForgotPasswordViewController.m in Sources */,
+				D9A3A2A41BC27C0E0040A307 /* SignUpViewController.m in Sources */,
 				D9873C141BC24D81009317E9 /* AppDelegate.m in Sources */,
 				D9873C111BC24D81009317E9 /* main.m in Sources */,
+				D9873C291BC25963009317E9 /* LoginViewController.m in Sources */,
+				D9A3A2A91BC27C2A0040A307 /* UserRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D9873C181BC24D81009317E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9873C191BC24D81009317E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9873C1D1BC24D81009317E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,10 +388,16 @@
 		};
 		D9873C241BC24D81009317E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35DA017DBF6E4E7AA5BE55C /* Pods-Login_parse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Login_parse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.times.Login-parse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -270,10 +405,16 @@
 		};
 		D9873C251BC24D81009317E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517157A82D059D96CE29004A /* Pods-Login_parse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Login_parse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.times.Login-parse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,6 +439,7 @@
 				D9873C251BC24D81009317E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

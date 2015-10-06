@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UserRootViewController.h
 //  Login_parse
 //
 //  Created by Vivek Reddy on 05/10/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface UserRootViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *loginStatusLabel;
 
 @end
-
